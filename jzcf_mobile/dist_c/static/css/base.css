@@ -1,0 +1,35 @@
+/* css基础样式 */
+*{
+    padding:0;margin:0;
+    list-style: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+-webkit-tap-highlight-color: transparent; /* For some Androids,个人感觉是低版本的安卓，4.0以下 */  
+}
+
+div,dl,dt,dd,form,h1,h2,h3,h4,h5,h6,img,ol,ul,li,table,th,td,p,span,a{border:0;}
+img,input{border:none;vertical-align:middle;outline: none;}
+body{font-family:Tahoma,Arial,Helvetica,"微软雅黑";font-size:12px;color:#333;}
+html{overflow-y:scroll;}
+ul,ol{list-style-type:none;}
+th,td,input{font-size:12px;}
+h3{font-size:14px;}
+button{border:none;cursor:pointer;font-size:12px;background-color:transparent;outline: none;}
+select{border-width:1px;_zoom:1;border-style:solid;padding-top:2px;font-size:12px;}
+a{text-decoration: none;}
+a:link,a:visited{text-decoration:none;color:#333;}
+a:hover,a:active{text-decoration:underline;}
+input{background: none;outline: none;border: none;}
+input::-webkit-input-placeholder { color: #9DA3B4; } /* WebKit browsers */
+input:-moz-placeholder { color: #9DA3B4; } /* Mozilla Firefox 4 to 18 */
+input::-moz-placeholder {  color: #9DA3B4; } /* Mozilla Firefox 19+ */
+input:-ms-input-placeholder { color: #9DA3B4; }/* Internet Explorer 10+ */
+.clear{clear:both;font-size:1px;height:0;visibility:hidden;line-height:0;}
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+[data-dpr="2"] .item-section {
+	font-size:24px
+}
+[data-dpr="3"] .item-section {
+	font-size:36px
+}
+

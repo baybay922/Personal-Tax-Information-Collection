@@ -1,0 +1,76 @@
+.mint-toast{
+    background: rgba(0, 0, 0, .3)!important;
+    font-size: 32px!important;
+}
+.v-modal{
+    background: #3B4664;
+    opacity: .6;
+}
+.mint-msgbox{
+    width: 500px;
+    border-radius: 8px;
+}
+.mint-msgbox-btns{
+    height: 90px;
+    line-height: 90px;
+}
+.mint-msgbox-header{
+    padding: 0;
+}
+.mint-msgbox-content{
+    padding-top: 0;
+    border-bottom: 1px solid #F6F6FF;
+}
+.mint-msgbox-cancel{
+    border-right: 0.013333rem solid #F6F6FF;
+    font-size: 32px;
+    color: #9DA3B4;
+}
+.mint-msgbox-confirm{
+    font-size: 32px;
+    color: #3063AD;
+}
+.mint-msgbox-title{
+    padding: 30px 0;
+    font-size: 32px;
+    color: #1B1B4E;
+    font-weight: normal;
+}
+.mint-msgbox-message{
+    width: 400px;
+    font-size: 24px;
+    color: #3B4664;
+    margin: 0 auto;
+    text-align: left;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+.mint-indicator-text{
+    font-size: 28px!important;
+}
+
+.mint-toast-text{
+    width: auto;
+    font-size: 28px!important;
+}
+.mint-tab-item .mint-tab-item-label{
+    font-size: 32px!important;
+    color: #3B4664;
+}
+.mint-navbar .mint-tab-item.is-selected{
+    border-bottom: 8px solid #3667AF;
+    color: #3667AF;
+}
+.picker-item{
+    width: 100%;
+    font-size: 28px;
+    color: #9DA3B4;
+}
+.picker-selected{
+    font-size: 32px;
+    color: #3063AD!important;
+}
